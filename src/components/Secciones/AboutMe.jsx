@@ -13,7 +13,7 @@ const AboutMe = () => {
         </div>
         <div>
           <p className="text-md mb-4 text-pretty">
-            Me llamo Emanuel, pero mis amigos me conocen como Manu.
+            Me llamo Emanuel.
             <b>Tengo 20 años y nací en Buenos Aires, Argentina.</b> Comencé en
             la programación en la UTN, especialmente interesado en el   
             <span className="text-sky-700 font-semibold mx-1">

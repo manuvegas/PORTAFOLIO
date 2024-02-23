@@ -34,7 +34,7 @@ const proyectos = [
   {
     title: "E-commers",
     description:
-      "ropa E-commerce desarrollado exclusivamente en el ámbito del front-end. Permite a los usuarios explorar diferentes secciones y acceder a detalles de cada producto dentro de estas categorías. Aunque no incluye funcionalidades relacionadas con el backend, ofrece una experiencia de navegación intuitiva y atractiva, enfocada en la presentación y la interacción de los productos.",
+      "Tienda de ropa E-commerce desarrollado exclusivamente en el ámbito del front-end. Permite a los usuarios explorar diferentes secciones y acceder a detalles de cada producto dentro de estas categorías. Aunque no incluye funcionalidades relacionadas con el backend, ofrece una experiencia de navegación intuitiva y atractiva, enfocada en la presentación y la interacción de los productos.",
     link: "#",
     github: "#",
     image: "../Proyects/proyect1.png",

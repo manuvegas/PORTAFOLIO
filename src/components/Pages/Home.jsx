@@ -17,7 +17,7 @@ const Home = () => {
             Hey,soy Manu Vegas
           </h1>
           <h2 className="text-lg md:text-xl lg:text-2xl opacity-80 text-pretty max-w-[740px]">
-            Desarrolador Front-End.{" "}
+            Desarrolador Front-End.
             <span className="text-blue-600 font-semibold">
               De Buenos Aires, Argentina
             </span>
