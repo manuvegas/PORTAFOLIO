@@ -4,6 +4,8 @@ import Js from "../Icons/Js";
 import Tailwind from "../Icons/Tailwind";
 import Html from "../Icons/Html";
 
+//ICONOS QUE SE USARON PAR DESARROLLAR LOS PROYECTOS
+
 const Icons = {
   REACT: {
     icon: <ReactJs className={"size-6"} />,
@@ -26,22 +28,25 @@ const Icons = {
     class: "bg-orange-600 text-black font-semibold",
   },
 };
+//PROYECTOS TERMINADOS Y LOGRADOS COMO SE ESPERABA
 
 const proyectos = [
   {
-    title: "Catalogo de ropa -Forest Text",
-    description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque quo at voluptate consectetur cupiditate, ipsa culpa doloremque, tempora sapiente dolor alias adipisci consequatur? Doloremque sunt molestiae quaerat eius nihil.",
+    title: "E-commers",
+    description:
+      "ropa E-commerce desarrollado exclusivamente en el ámbito del front-end. Permite a los usuarios explorar diferentes secciones y acceder a detalles de cada producto dentro de estas categorías. Aunque no incluye funcionalidades relacionadas con el backend, ofrece una experiencia de navegación intuitiva y atractiva, enfocada en la presentación y la interacción de los productos.",
     link: "#",
     github: "#",
-    image: "../Proyects/proyect1.jpg",
+    image: "../Proyects/proyect1.png",
     tags: ["REACT", "JS", "TAILWIND", "HTML"],
   },
   {
-    title: "E-commers(Emprendimiento personal)",
-    description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque quo at voluptate consectetur cupiditate, ipsa culpa doloremque, tempora sapiente dolor alias adipisci consequatur? Doloremque sunt molestiae quaerat eius nihil.",
+    title: "Catalogo de ropa -Forest Text",
+    description:
+      "",
     link: "#",
     github: "#",
-    image: "../Proyects/proyect1.jpg",
+    image: "",
     tags: ["REACT", "JS", "TAILWIND", "HTML"],
   },
 ];
@@ -51,7 +56,9 @@ const Proyectos = () => {
     <>
       {proyectos.map(({ image, title, description, tags }, index) => (
         <article key={index} className="mt-5">
-          <h3 className="text-xl sm:text-2xl font-semibold text-blue-600">{title}</h3>
+          <h3 className="text-xl sm:text-2xl font-semibold text-blue-600">
+            {title}
+          </h3>
           <p className="text-md sm:text-lg mb-4 text-pretty">{description}</p>
           <ul className="flex flex-row gap-x-4 mb-5 flex-wrap gap-3">
             {Array.isArray(tags) &&
