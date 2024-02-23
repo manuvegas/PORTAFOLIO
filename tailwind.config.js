@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       colors:{
-        dark:`rgb(2,2,2)`,
-        black:'rgb(1,1,1)'
+        dark:`rgb(7,7,7)`,
+        black:'rgb(1,1,1)',
       }
     },
   },
