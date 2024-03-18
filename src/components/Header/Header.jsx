@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="fixed top-0  w-full z-10 bg-dark">
+    <header className="fixed top-0 bg-dark w-full z-10">
       <div className="flex justify-between items-center py-5 max-w-[740px] mx-auto">
         <img
           src="../imgs/TRAVIS.png"
